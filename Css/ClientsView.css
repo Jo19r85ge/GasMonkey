@@ -1,0 +1,21 @@
+#tableUser
+{
+    width: 97%;
+    background-color: coral;
+    margin: 1rem;
+    padding: 1rem;
+    border: 2px solid #ccc;
+    text-align: left;
+}
+
+#ClientsTableContent
+{
+    width: 92%;
+    background-color: coral;
+    margin: 1rem;
+    padding: 1rem;
+    border: 2px solid #ccc;
+    text-align: left;
+}
+
+
