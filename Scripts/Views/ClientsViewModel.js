@@ -14,7 +14,6 @@ class ClientsViewModel
         ];
 
         this.TableHandler = new TableHandler(ClientsTableContent, Client, buttons);
- 
     }
 
     AddNewClient()
