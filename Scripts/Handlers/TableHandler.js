@@ -19,10 +19,8 @@ class TableHandler
 
         for (var prop in template)
         {
-            
             var cell = row.insertCell();
-            cell.innerHTML = "<b>" + prop + "</b>"; 
-            
+            cell.innerHTML = "<b>" + prop + "</b>";       
         };
     }
 
@@ -34,11 +32,9 @@ class TableHandler
 
         for (let prop in model)
         {
-         
-                let cell = row.insertCell();
-                cell.id = prop;
-                cell.innerHTML = model[prop];
-            
+            let cell = row.insertCell();
+            cell.id = prop;
+            cell.innerHTML = model[prop];
         };
 
         for (let i in this.Buttons)
