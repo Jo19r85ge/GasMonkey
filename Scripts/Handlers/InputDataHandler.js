@@ -8,7 +8,6 @@ class InputDataHandler
     GetAllModelPropertiesInNode(node)
     {
         let output = [];
-
         let subnodes = node.querySelectorAll('[property]');
 
         for (let i in subnodes)
