@@ -16,7 +16,6 @@ class DropDownHandler
         for (let i in this.Options)
         {
             var option = this.Options[i];
-
             var label = this.CreateLabel(option);
             this.Control.appendChild(label);
         }
