@@ -2,7 +2,9 @@ class GasMonkeyGarage
 {
     constructor()
     {
+
         this.MenuVM = null;
+
     }
 
     Start()
@@ -17,6 +19,7 @@ class GasMonkeyGarage
 
     ShowView(menuView)
     {
+
         if (this.MenuVM != null)
         {
             this.MenuVM.ShowView(menuView);
