@@ -2,9 +2,7 @@ class GasMonkeyGarage
 {
     constructor()
     {
-
         this.MenuVM = null;
-
     }
 
     Start()
