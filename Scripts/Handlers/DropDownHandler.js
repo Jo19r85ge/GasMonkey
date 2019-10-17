@@ -12,7 +12,6 @@ class DropDownHandler
     LoadOptions()
     {
         this.Control.innerHTML = "";
-
         for (let i in this.Options)
         {
             var option = this.Options[i];
