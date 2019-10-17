@@ -10,7 +10,6 @@ class GasMonkeyGarage
         this.ClientsVM = new ClientsViewModel();
         this.WorkersVM = new WorkersViewModel();
         this.RepairsVM = new RepairsViewModel();
-
         this.MenuVM = new MenuViewModel();
         this.MenuVM.ShowView(MenusViews.Clients);
     }
@@ -31,4 +30,3 @@ window.onload = function(event)
 {
     App.Start();
 };
-
