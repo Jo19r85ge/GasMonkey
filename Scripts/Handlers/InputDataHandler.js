@@ -36,7 +36,6 @@ class InputDataHandler
     FillModel(model, node)
     {
         let propValues = this.GetAllModelPropertiesInNode(node);
-
         for (let i in propValues)
         {
             let info = propValues[i];
@@ -47,7 +46,6 @@ class InputDataHandler
     FillForm(model, node)
     {
         let propValues = this.GetAllModelPropertiesInNode(node);
-
         for (let i in propValues)
         {
             let info = propValues[i];
@@ -58,7 +56,6 @@ class InputDataHandler
     CleanForm(node)
     {
         let propValues = this.GetAllModelPropertiesInNode(node);
-
         for (let i in propValues)
         {
             let info = propValues[i];
