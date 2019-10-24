@@ -86,6 +86,7 @@ class TableHandler
     }
 }
 
+
 class TableButtonInfo
 {
     constructor(text, action)
