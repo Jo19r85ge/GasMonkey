@@ -2,6 +2,7 @@ class Repair
 {
     constructor(client, worker)
     {
+        
         this.ClientName = client === undefined ? "" : client.Name;
         this.Car = client === undefined ? "" : client.Car;
         this.Worker = worker === undefined ? "" : worker.Name;
