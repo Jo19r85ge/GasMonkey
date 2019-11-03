@@ -2,7 +2,6 @@ class MenuViewModel
 {
     constructor()
     {
-
     }
 
     ShowView(menuView)
