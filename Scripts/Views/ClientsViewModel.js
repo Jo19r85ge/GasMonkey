@@ -3,10 +3,9 @@ class ClientsViewModel
     constructor()
     {
         this.Clients = new Array();
-        
         this.InputHandler = new InputDataHandler();
         this.EditingClient = null;
-
+        
         let buttons = 
         [
             new TableButtonInfo("Edit", (client) => { this.OnSelectedClient(client); }),
@@ -34,7 +33,6 @@ class ClientsViewModel
     {
         this.InputHandler.FillModel(this.EditingClient, ClientsView);
         this.TableHandler.UpdateRow(this.EditingClient);
-
         this.CleanClientForm();
     }
 
