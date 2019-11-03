@@ -2,7 +2,6 @@ class Client
 {
     constructor()
     {
-        
         this.Name = "";
         this.Surname = "";
         this.Email = "";
@@ -11,6 +10,5 @@ class Client
         this.Model = "";
         this.Color = "";
         this.Enrollment = "";
-        
     }
 }
