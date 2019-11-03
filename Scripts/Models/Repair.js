@@ -10,4 +10,5 @@ class Repair
         this.LendedOn = (this.LendedOn.getDate() + "/" + (this.LendedOn.getMonth() +1) + "/" + this.LendedOn.getFullYear());
         this.ExpiresOn = (this.ExpiresOn.getDate() + "/" + (this.ExpiresOn.getMonth() +2) + "/" + this.ExpiresOn.getFullYear());
     }
+    
 }
