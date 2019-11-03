@@ -4,13 +4,12 @@ class RepairsViewModel
     {
         this.SelectedClient = null;
         this.SelectedWorker = null;
-
         this.ClientsDDHandler = new DropDownHandler(App.ClientsVM.Clients, DDClients, "Name", RepairsVM_BtSelectedClient, (client) => { this.SelectedClient = client;
                                         
-                                        if (this.SelectedClient != null)
-                                            BtWork.style.display = "block";  
+                if (this.SelectedClient != null)
+                BtWork.style.display = "block";  
 
-                                        this.ShowClientsRepairs(client);
+                this.ShowClientsRepairs(client);
                                     });
         this.WorkersDDHandler = new DropDownHandler(App.WorkersVM.Workers, DDWorkers, "Name", RepairsVM_BtSelectedWorker, (worker) => { this.SelectedWorker = worker;
 
