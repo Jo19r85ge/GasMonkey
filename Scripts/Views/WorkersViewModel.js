@@ -3,7 +3,6 @@ class WorkersViewModel
     constructor()
     {
         this.Workers = new Array();
-
         this.InputHandler = new InputDataHandler();
         this.EditingWorker = null;  
 
@@ -34,7 +33,6 @@ class WorkersViewModel
     {
         this.InputHandler.FillModel(this.EditingWorker, WorkersView);
         this.TableHandler.UpdateRow(this.EditingWorker);
-
         this.CleanWorkerForm();
     }
 
