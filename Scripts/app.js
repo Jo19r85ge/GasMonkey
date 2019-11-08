@@ -5,6 +5,8 @@ class GasMonkeyGarage
         this.MenuVM = null;
     }
 
+    
+    
     Start()
     {
         this.ClientsVM = new ClientsViewModel();
