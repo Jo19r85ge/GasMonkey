@@ -4,8 +4,6 @@ class GasMonkeyGarage
     {
         this.MenuVM = null;
     }
-
-    
     
     Start()
     {
